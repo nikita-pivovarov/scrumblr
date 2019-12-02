@@ -1,0 +1,7 @@
+FROM redis
+
+USER 999
+
+EXPOSE 6379
+
+CMD ["redis-server"]
